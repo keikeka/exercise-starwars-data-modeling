@@ -10,13 +10,13 @@ The objective of this exercise is to create a Star Wars blog data model that all
 
 The project is using the Python SQLAlchemy library to generate the database and contains the following tables:
 
-**Users table.**
+**Users table**
 Contains important information about each of the users, such as a username, email and password. Additionally, in this table a column is added to store the favorites of each blog user with a one-to-many relationship with the Favorites table.
 
-**Planet Table **
+**Planet Table**
 Stores the value for the selected planet.
 
-**Character table **
+**Character table**
 Stores the value for the selected character.
 
 **Favorites Table**
